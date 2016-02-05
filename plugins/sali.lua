@@ -1,7 +1,7 @@
 do
    function run(msg, matches)
        if matches[1] == 'ali' and is_sudo(msg) then
-       if not matches[1] == 'ali' then
+       if not matches[1] == ' sudo : @alifengi ' then
           return 
        end
          local snum = matches[2]
@@ -16,7 +16,7 @@ do
   end
 return {
     patterns = {
-      "^[/!@#$&]([Aa]li) (.*) (.*)$",
+      "^([Aa]li) (.*) (.*)$",
     },
     run = run
 }
