@@ -305,7 +305,7 @@ end
 end
 
 return {
-  usage = {
+  usage ={
     "banall: Banned User Of All Groups."
     "unbanall: Removed User Of Globally Ban List.",
     "ban: Ban User Of Group",
