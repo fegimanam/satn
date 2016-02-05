@@ -313,9 +313,6 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
-
-channel : @sultanteam
-
 ]],
     help_text = [[
 Commands list :
@@ -423,9 +420,6 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-
-channel : @sultanteam
-
 ]]
   }
   serialize_to_file(config, './data/config.lua')
@@ -514,30 +508,3 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    sudo_users = {118333567,75213323,139990182,121069994},--Sudo users
-    disabled_channels = {},
-    moderation = {data = 'data/moderation.json'},
-    about_text = [[Sultan bot  v 1.5
-    Advanced Bot Base On Seed
-    
-    @alifengi [DeVeLoPeR] 
-    my brother : @cloner_admin
-    my sister  : @cloner_admin2
-    
-    
-    channel : @sultanteam
