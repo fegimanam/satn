@@ -233,8 +233,8 @@ function create_config( )
     Advanced Bot Base On Seed
     
     @alifengi [DeVeLoPeR] 
-    my brother : @cloner_admin
-    my sister  : @cloner_admin2
+    @cloner_admin manager
+    @cloner_admin2 manager
     
     
     channel : @sultanteam
